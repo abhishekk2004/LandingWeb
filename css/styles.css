@@ -1,0 +1,78 @@
+/** @format */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.main-page {
+  background-image: url("../img/beach.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+.main-page .landing-page h1 {
+  font-size: 30px;
+  line-height: 1;
+  color: #926239;
+  margin-bottom: 12px;
+}
+
+.main-page .landing-page p {
+  font-size: 15px;
+  color: #926239;
+}
+
+.main-page .landing-page a {
+  text-decoration: none;
+  color: #926239;
+  display: inline-block;
+  margin-top: 10px;
+  border: #926239 1px solid;
+  border-radius: 15px;
+  padding: 8px;
+  background-color: #926239;
+  color: white;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.main-page .landing-page a:hover {
+  transform: rotateY(180deg);
+}
+
+.section .section-A {
+  background-color: #926239;
+  padding: 10px 15px;
+}
+
+.section .section-B {
+  background-color: #f4f4f4;
+  padding: 10px 15px;
+}
+
+.section-C {
+  display: flex;
+}
+
+.section .section-C .box-1,
+.section .section-C .box-3 {
+  background-color: #926239;
+  padding: 10px 15px;
+}
+
+.section .section-C .box-2 {
+  background-color: #f9f9f9;
+  padding: 10px 15px;
+}
